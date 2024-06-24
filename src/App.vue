@@ -38,7 +38,7 @@
                 <a v-for="item in navigation" :key="item.name" @click="goTo(item.href)" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50/20">{{ item.name }}</a>
               </div>
               <div class="py-6">
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800">Log in</a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-50/20">Log in</a>
               </div>
             </div>
           </div>
@@ -65,12 +65,12 @@
 
   <div class="bg-white">
     <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-      <div class="relative isolate overflow-hidden bg-[url(/delivery-boy.png)] ring-1 ring-white/10 px-6 pt-16 shadow-2xl rounded-3xl min-sm:mx-5 sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+      <div class="relative isolate overflow-hidden bg-[url(/delivery-boy.png)] ring-1 ring-white/10 px-6 pt-16 shadow-2xl rounded-3xl mx-5 sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 ">
         <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
           <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Procurando sua encomenda?</h2>
             <p class="mt-6 text-lg leading-8 text-white">Clique no link abaixo para ser redirecionado para a página de rastreio da sua encomenda.</p>
           <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start p-4">
-            <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Rastrear encomenda</a>
+            <a href="https://ssw.inf.br/2/rastreamento_danfe?" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Rastrear encomenda</a>
           </div>
         </div>
       </div>
@@ -78,28 +78,24 @@
   </div>
 
   <div class="overflow-hidden bg-white py-24" id="about">
-    <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
-        <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Sobre nós</h2>
-          <p class="mt-6 text-base leading-8 text-gray-600 text-justify">A Intercargo tem uma história sólida no setor logístico, estabelecida em 1980 para fornecer serviços de transporte para os produtos da Ciser. Desde então, evoluiu para atender uma ampla gama de clientes em diversos segmentos. <br><br>Especializada em operações fracionadas, a Intercargo facilita o transporte de mercadorias entre Joinville e São Paulo, atendendo não apenas a capital, mas também sua região metropolitana.</p>
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="lg:flex lg:gap-12">
+        <div class="lg:w-2/5">
+          <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">Sobre nós</h2>
+          <p class="mt-6 text-base leading-8 text-gray-600 text-justify">
+            A Intercargo tem uma história sólida no setor logístico, estabelecida em 1980 para fornecer serviços de transporte para os produtos da Ciser. Desde então, evoluiu para atender uma ampla gama de clientes em diversos segmentos.
+            <br><br>
+            Especializada em operações fracionadas, a Intercargo facilita o transporte de mercadorias entre Joinville e São Paulo, atendendo não apenas a capital, mas também sua região metropolitana.
+          </p>
         </div>
-        <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-          <div class=" flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-            <img src="/delivery-man.jpg" alt="" class="aspect-[16/8] w-[48rem] max-w-none rounded-2xl bg-gray-50 object-cover block ml-8" />
-          </div>
-          <div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8 mr-8">
-            <div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-              <img src="/delivery-truck.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
-            </div>
-            <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-              <img src="/warehouse-2.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
-            </div>
-            <div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-              <img src="/warehouse.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
-            </div>
-          </div>
+        <div class="lg:w-3/5 lg:ml-auto">
+          <img src="/delivery-man.jpg" alt="" class="h-96 lg:h-auto w-full lg:max-w-none rounded-2xl bg-gray-50 object-cover">
         </div>
+      </div>
+        <div class="flex flex-wrap justify-between gap-3 sm:gap-8 mt-12 lg:gap-8">
+        <img src="/delivery-truck.jpg" alt="" class="w-full lg:w-[20rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+        <img src="/warehouse-2.jpg" alt="" class="w-full lg:w-[20rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+        <img src="/warehouse.jpg" alt="" class="w-full lg:w-[20rem] max-w-none rounded-2xl bg-gray-50 object-cover">
       </div>
     </div>
   </div>
@@ -152,66 +148,49 @@
     </div>
   </div>
 
-  <div id="testimonials">
-    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mt-8">O que falam sobre nós</h2>
-    <section class="bg-white pt-24 pb-24">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
-            <img class="h-12 self-start" src="https://tailwindui.com/img/logos/tuple-logo-gray-900.svg" alt="" />
-            <figure class="mt-10 flex flex-auto flex-col justify-between">
-              <blockquote class="text-lg leading-8 text-gray-900">
-                <p>“Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus tortor consequat at. Vulputate gravida sociis enim nullam ultricies habitant malesuada lorem ac. Tincidunt urna dui pellentesque sagittis.”</p>
-              </blockquote>
-              <figcaption class="mt-10 flex items-center gap-x-6">
-                <img class="h-14 w-14 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-                <div class="text-base">
-                  <div class="font-semibold text-gray-900">Judith Black</div>
-                  <div class="mt-1 text-gray-500">CEO of Tuple</div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20">
-            <img class="h-12 self-start" src="https://tailwindui.com/img/logos/reform-logo-gray-900.svg" alt="" />
-            <figure class="mt-10 flex flex-auto flex-col justify-between">
-              <blockquote class="text-lg leading-8 text-gray-900">
-                <p>“Excepteur veniam labore ullamco eiusmod. Pariatur consequat proident duis dolore nulla veniam reprehenderit nisi officia voluptate incididunt exercitation exercitation elit. Nostrud veniam sint dolor nisi ullamco.”</p>
-              </blockquote>
-              <figcaption class="mt-10 flex items-center gap-x-6">
-                <img class="h-14 w-14 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-                <div class="text-base">
-                  <div class="font-semibold text-gray-900">Joseph Rodriguez</div>
-                  <div class="mt-1 text-gray-500">CEO of Reform</div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
+  <div id="testimonials" class="bg-white py-24">
+    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mb-8">O que falam sobre nós</h2>
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 pt-10">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 lg:max-w-none lg:grid-cols-2 gap-16">
+        <div v-for="(testimonial, index) in testimonials" :key="index" class="flex flex-col" :class="{'lg:pr-8 xl:pr-20': index === 0, 'lg:pl-8 xl:pl-20': index === 1}">
+          <img class="h-12 w-max mb-8" :src="testimonial.logo" :alt="testimonial.alt" />
+          <figure class="flex flex-col justify-between">
+            <blockquote class="text-lg leading-8 text-gray-900" :class="{'text-justify': index === 0}">
+              {{ testimonial.quote }}
+            </blockquote>
+            <figcaption class="mt-10 flex items-center gap-x-6">
+              <img class="h-14 w-14 rounded-full" :src="testimonial.image" :alt="testimonial.name" />
+              <div>
+                <div class="font-semibold text-gray-900">{{ testimonial.name }}</div>
+                <div class="text-gray-500">{{ testimonial.position }}</div>
+              </div>
+            </figcaption>
+          </figure>
         </div>
       </div>
-    </section>
+    </div>
   </div>
 
   <div id="contact" class="relative isolate bg-white">
-    <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 mt-32">
+    <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 mt-28">
       <div class="relative px-6 pt-24 lg:static lg:px-8">
         <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
           <div class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-white border-r border-gray-900/10 lg:w-1/2"></div>
           <h2 class="text-3xl font-bold tracking-tight text-gray-900">Fale com um especialista</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Entre em contato conosco para explorar como nossas soluções inovadoras podem impulsionar o seu negócio. Estamos prontos para fornecer um atendimento personalizado e responder a todas as suas necessidades.</p>
+          <p class="mt-6 text-lg leading-8 text-justify text-gray-600">Precisa de orientação personalizada para seus envios? Nossa equipe está aqui para ajudar. Entre em contato para discutir suas necessidades de transporte e encontrar soluções sob medida. Com especialistas altamente qualificados, estamos prontos para oferecer conselhos especializados para otimizar sua logística. Estamos comprometidos em fornecer a você a assistência necessária para alcançar seus objetivos de transporte. Entre em contato hoje mesmo e deixe-nos ajudá-lo a simplificar sua cadeia de suprimentos.</p>
 
           <dl class="mt-10 space-y-4 text-base leading-7 text-gray-600">
             <div class="flex gap-x-4">
               <dt class="flex-none">
                 <BuildingOfficeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
               </dt>
-              <dd>Rua Dona Primitiva Vianco, 834 - 4º e 5º Andar<br />Osasco/SP - Brasil</dd>
+              <dd>Rua Carlos Frederico Adolfo Schneider, 67 - Bairro: Saguaçu Joinville/SC CEP: 89.221-002</dd>
             </div>
             <div class="flex gap-x-4">
               <dt class="flex-none">
                 <PhoneIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
               </dt>
-              <dd><a class="hover:text-gray-900" href="tel:+1 (555) 234-5678">+55 (11) 93416-5757</a></dd>
+              <dd><a class="hover:text-gray-900" href="tel:+1 (555) 234-5678">Telefone: (47) 3441-3765 / (47) 3441-3818</a></dd>
             </div>
           </dl>
 
@@ -220,13 +199,13 @@
               <dt class="flex-none">
                 <BuildingOfficeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
               </dt>
-              <dd>Rua Dona Primitiva Vianco, 834 - 4º e 5º Andar<br />Osasco/SP - Brasil</dd>
+              <dd>Avenida Justino de Maio, n° 630 - Galpão 3 - Fundos (Bairro: Cidade Industrial Satélite - Guarulhos/SP) / CEP: 07222-000</dd>
             </div>
             <div class="flex gap-x-4">
               <dt class="flex-none">
                 <PhoneIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
               </dt>
-              <dd><a class="hover:text-gray-900" href="tel:+1 (555) 234-5678">+55 (11) 93416-5757</a></dd>
+              <dd><a class="hover:text-gray-900" href="tel:+1 (555) 234-5678">Telefone: (47) 3441-3765 / (47) 3441-3818</a></dd>
             </div>
           </dl>
         </div>
@@ -324,7 +303,43 @@ export default {
         { src: "/logos/rbe.png", alt: "RBE" },
         { src: "/logos/agropecuaria-parati.png", alt: "Agropecuaria Parati" },
         { src: "/logos/hcs.png", alt: "HCS" }
+      ],
+      testimonials: [
+        {
+          logo: "https://tailwindui.com/img/logos/tuple-logo-gray-900.svg",
+          alt: "Tuple logo",
+          quote: "“Tive uma experiência excelente com a Intercargo Transporte. O atendimento ao cliente é excepcional e a equipe de transporte é extremamente eficiente. Eles cuidaram de todos os detalhes, desde o empacotamento até a entrega, garantindo que meus produtos chegassem em perfeito estado e dentro do prazo. A transparência e a comunicação ao longo do processo foram impressionantes. Recomendo fortemente a Intercargo para qualquer necessidade de transporte.”",
+          image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          name: "Judith Black",
+          position: "CEO of Tuple"
+        },
+        {
+          logo: "https://tailwindui.com/img/logos/reform-logo-gray-900.svg",
+          alt: "Reform logo",
+          quote: "“Contratei a Intercargo Transporte para realizar a mudança da minha empresa e fiquei extremamente satisfeito com o serviço prestado. Desde o primeiro contato, o atendimento foi impecável. A equipe é muito profissional, cuidadosa e pontual. Todas as minhas solicitações foram atendidas com precisão, e os itens foram transportados com segurança e rapidez. Recomendo a Intercargo para qualquer pessoa que precise de um serviço de transporte confiável e eficiente. Com certeza voltarei a usar seus serviços no futuro!”",
+          image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          name: "Joseph Rodriguez",
+          position: "CEO of Reform"
+        }
+      ],
+      addresses: [
+        {
+          line1: "Rua Carlos Frederico Adolfo Schneider, 67 - Bairro: Saguaçu",
+          city: "Joinville",
+          state: "SC",
+          cep: "89.221-002",
+          phone: "(47) 3441-3765 / (47) 3441-3818"
+        },
+        {
+          line1: "Avenida Justino de Maio, n° 630 - Galpão 3 - Fundos",
+          line2: "Bairro: Cidade Industrial Satélite",
+          city: "Guarulhos",
+          state: "SP",
+          cep: "07222-000",
+          phone: "(47) 3441-3765 / (47) 3441-3818"
+        }
       ]
+
     }
   },
   methods: {
