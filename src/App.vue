@@ -310,20 +310,20 @@ export default {
       ],
       testimonials: [
         {
-          logo: "https://tailwindui.com/img/logos/tuple-logo-gray-900.svg",
-          alt: "Tuple logo",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1024px-LEGO_logo.svg.png",
+          alt: "Logo da Lego",
           quote: "“Tive uma experiência excelente com a Intercargo Transporte. O atendimento ao cliente é excepcional e a equipe de transporte é extremamente eficiente. Eles cuidaram de todos os detalhes, desde o empacotamento até a entrega, garantindo que meus produtos chegassem em perfeito estado e dentro do prazo. A transparência e a comunicação ao longo do processo foram impressionantes. Recomendo fortemente a Intercargo para qualquer necessidade de transporte.”",
           image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-          name: "Judith Black",
-          position: "CEO of Tuple"
+          name: "Judith Lego",
+          position: "CEO da Lego"
         },
         {
-          logo: "https://tailwindui.com/img/logos/reform-logo-gray-900.svg",
-          alt: "Reform logo",
+          logo: "https://www.creativefabrica.com/wp-content/uploads/2022/09/25/Head-Wolf-Logo-Design-Inspiration-Graphics-39255511-1.jpg",
+          alt: "Lobo logo",
           quote: "“Contratei a Intercargo Transporte para realizar a mudança da minha empresa e fiquei extremamente satisfeito com o serviço prestado. Desde o primeiro contato, o atendimento foi impecável. A equipe é muito profissional, cuidadosa e pontual. Todas as minhas solicitações foram atendidas com precisão, e os itens foram transportados com segurança e rapidez. Recomendo a Intercargo para qualquer pessoa que precise de um serviço de transporte confiável e eficiente. Com certeza voltarei a usar seus serviços no futuro!”",
           image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-          name: "Joseph Rodriguez",
-          position: "CEO of Reform"
+          name: "Joseph Lobo",
+          position: "CEO da Lobo"
         }
       ],
       addresses: [
