@@ -77,25 +77,29 @@
     </div>
   </div>
 
-  <div class="overflow-hidden bg-white py-24" id="about">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="lg:flex lg:gap-12">
-        <div class="lg:w-2/5">
-          <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">Sobre nós</h2>
-          <p class="mt-6 text-base leading-8 text-gray-600 text-justify">
-            A Intercargo tem uma história sólida no setor logístico, estabelecida em 1980 para fornecer serviços de transporte para os produtos da Ciser. Desde então, evoluiu para atender uma ampla gama de clientes em diversos segmentos.
-            <br><br>
-            Especializada em operações fracionadas, a Intercargo facilita o transporte de mercadorias entre Joinville e São Paulo, atendendo não apenas a capital, mas também sua região metropolitana.
-          </p>
+  <div class="overflow-hidden bg-white py-32" id="about">
+    <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
+        <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Sobre nós</h2>
+          <p class="mt-6 text-base leading-8 text-gray-600 text-justify">A Intercargo tem uma história sólida no setor logístico, estabelecida em 1980 para fornecer serviços de transporte para os produtos da Ciser. Desde então, evoluiu para atender uma ampla gama de clientes em diversos segmentos. <br><br>Especializada em operações fracionadas, a Intercargo facilita o transporte de mercadorias entre Joinville e São Paulo, atendendo não apenas a capital, mas também sua região metropolitana.</p>
         </div>
-        <div class="lg:w-3/5 lg:ml-auto">
-          <img src="/delivery-man.jpg" alt="" class="h-96 lg:h-auto w-full lg:max-w-none rounded-2xl bg-gray-50 object-cover">
+        <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+          <div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+            <img src="/delivery-man.jpg" alt="" class="aspect-[16/8] w-[48rem] max-w-none rounded-2xl bg-gray-50 object-cover block ml-8" />
+          </div>
+          <div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8 mr-8">
+            <div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
+              <img src="/delivery-truck.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+            </div>
+            <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
+              <img src="/warehouse-2.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+            </div>
+            <div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
+              <img src="/warehouse.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+            </div>
+          </div>
         </div>
-      </div>
-        <div class="flex flex-wrap justify-between gap-3 sm:gap-8 mt-12 lg:gap-8">
-        <img src="/delivery-truck.jpg" alt="" class="w-full lg:w-[20rem] max-w-none rounded-2xl bg-gray-50 object-cover">
-        <img src="/warehouse-2.jpg" alt="" class="w-full lg:w-[20rem] max-w-none rounded-2xl bg-gray-50 object-cover">
-        <img src="/warehouse.jpg" alt="" class="w-full lg:w-[20rem] max-w-none rounded-2xl bg-gray-50 object-cover">
       </div>
     </div>
   </div>
